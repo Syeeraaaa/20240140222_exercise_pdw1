@@ -15,3 +15,15 @@ body {
     color: #4a3427;
     line-height: 1.6;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #4a3427;
+    color: #e0bc96;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
